@@ -16,7 +16,7 @@
           <a class="nav-link {{ ( $title === 'Gallery') ? 'active' : '' }}" href="/">Gallery</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link {{ ( $title === 'Contacts') ? 'active' : '' }}" href="/">Contact Us</a>
           </li>
 
         </ul>
