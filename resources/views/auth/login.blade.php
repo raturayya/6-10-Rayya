@@ -14,8 +14,6 @@
 
     @include('partials/css');
 
-</head>
-
 <body class="animsition">
     <div class="page-wrapper">
         <div class="page-content--bge5">
@@ -29,6 +27,7 @@
                         </div>
                         <div class="login-form">
                             <form action="" method="post">
+                                @csrf
                                 <div class="form-group">
                                     <label>Email Address</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
@@ -67,7 +66,7 @@
 
     </div>
 
-    @include('partials/script);
+    @include('partials/script');
 
 </body>
 
